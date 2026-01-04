@@ -1,0 +1,73 @@
+/*********************************************/
+/* Menu horizontal (rendu en-ligne des <li>) */
+/*********************************************/
+#nav {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none ;
+}
+
+#nav li {
+	display: inline ;
+	margin-right: 1px ;
+	color: #fff ;
+	background: #424242 ;
+}
+
+#nav li a {
+	background: #424242 ;
+	color: #fff ;
+	border: 1px solid #600 ;
+	font: 1em "Trebuchet MS",Arial,sans-serif ;
+	line-height: 1em ;
+	padding: 4px 20px ;
+	text-align: center ;
+	text-decoration: none ;
+}
+
+#nav li a:hover, #nav li a:focus, #nav li a:active {
+	background: #424242 ;
+	text-decoration: none ;
+	color:#009879;
+}
+	
+/*****************************************************/
+/* Mise en forme des tables avec structure complete  */
+/*****************************************************/
+	
+.prettyTable {
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.prettyTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.prettyTable th,
+.prettyTable td {
+    padding: 12px 15px;
+}
+
+.prettyTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.prettyTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.prettyTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.prettyTable tbody tr.oldData{
+	background-color: #f29f9f;
+}
+
